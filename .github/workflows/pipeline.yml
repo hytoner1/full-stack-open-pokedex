@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
+
       - uses: actions/setup-node@v1
         with:
           node-version: '12.x'
@@ -27,3 +28,9 @@ jobs:
           start: npm run start-prod 
           command: npm run test:e2e
           wait-on: http://localhost:5000
+
+      - uses: akhileshns/heroku-deploy@v3.12.12 # This is the action
+        with:
+          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+          heroku_app_name: "ronidex" #Must be unique in Heroku
+          heroku_email: "roni.hytonen93@gmail.com"
