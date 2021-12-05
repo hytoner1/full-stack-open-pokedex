@@ -1,1 +1,1 @@
-web: npm RRrun start-prod
+web: npm run start-prod
