@@ -36,3 +36,4 @@ jobs:
           heroku_email: "roni.hytonen93@gmail.com"
           healthcheck: "https://ronidex.herokuapp.com/health"
           checkstring: "ok"
+          rollbackonhealthcheckfailed: true
