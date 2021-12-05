@@ -17,4 +17,4 @@ jobs:
           date
       - name: Dir content
         run: |
-          ls
+          ls -l
