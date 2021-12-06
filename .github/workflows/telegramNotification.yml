@@ -15,3 +15,8 @@ jobs:
         with:
           to: ${{ secrets.CHAT_TOKEN }}
           token: ${{ secrets.BOT_TOKEN }}
+      - name: send private message on push
+        uses: appleboy/telegram-action@master
+        with:
+          to: ${{ secrets.MY_TELEGRAM_ID }}
+          token: ${{ secrets.BOT_TOKEN }}
