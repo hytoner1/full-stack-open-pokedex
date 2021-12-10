@@ -1,8 +1,13 @@
 # Full Stack open CI/CD
+## Roni Hytonen - roni.hytonen(at)aalto.fi
 
-This repository is used for the CI/CD module of the Full stack open course
+HY Full stack open MOOC part 11.
 
-Fork the repository to complete course exercises
+CI/CD basics with Github actions for the Pokedex tasks are in this. The project is running at https://ronidex.herokuapp.com.
+
+Repo https://github.com/hytoner1/FullStackOpen-CICD contains my own Anecdotes project for parts 11.21 - 11.22. 
+That project code is running at https://ronicdotes.herokuapp.com.
+
 
 ## Commands
 
